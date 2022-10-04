@@ -1,0 +1,16 @@
+@import '../../node_modules/font-face-generator/mixin.scss';
+
+@include font-face($fonts: ('Junegull Regular' : (300 : 'junegull-regular-bold'
+        )),
+    $types: 'woff''ttf'
+);
+
+@include font-face($fonts: ('YesevaOne Regular' : (300 : 'yesevaone-regular-normal'
+        )),
+    $types: 'ttf'
+);
+
+@include font-face($fonts: ('InterTight Regular' : (300 : 'intertight-regular-light'
+        )),
+    $types: 'ttf'
+);

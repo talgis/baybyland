@@ -1,0 +1,113 @@
+body {
+    padding: 0px;
+    background-image: url(../img/body-bg.svg);
+    background-size: cover;
+}
+
+.wrapper {
+    background-color: transparent;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    font: inherit;
+    color: white;
+}
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: white;
+}
+
+.logo-font {
+    font-family: 'Junegull Regular', arial;
+    font-size: 26px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+.logo-bg {
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    padding: 10px 15px;
+}
+
+.menu-font {
+    font-family: 'Junegull Regular', arial;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+.jumbotron {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../img/top.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    padding: 60px 40px 60px 40px;
+}
+
+.navbar-font {
+    font-family: 'InterTight Regular', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.nav-dot>.nav-item>.nav-link {
+    margin-right: 20px;
+}
+
+.nav-dot>.nav-item>.nav-link::after {
+    position: relative;
+    right: -5px;
+    /* <-- align the circle horizontally */
+    top: -5px;
+    /* <-- Added declaration             */
+    content: '';
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 0;
+    padding: 3px;
+}
+
+.nav-dot>.nav-item>.nav-link:hover {
+    color: yellow;
+}
+
+//rgb(247, 175, 167);
+.looking-children {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'YesevaOne Regular', Arial, Helvetica, sans-serif;
+
+}
+
+.cta-button {
+    font-family: 'Junegull Regular', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
