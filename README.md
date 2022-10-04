@@ -9,8 +9,8 @@ Include [Bootstrap](https://getbootstrap.com)'s source Sass and individual JavaS
 ## How to use
 
 ```sh
-git clone https://github.com/twbs/examples.git
-cd examples/vite/
+git clone https://github.com/talgis/baybyland.git
+cd baybyland
 npm install
-npm start
+npm run dev
 ```
